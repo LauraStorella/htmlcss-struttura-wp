@@ -1,0 +1,67 @@
+/* Inizio reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Fine reset */
+
+/* Inizio regole main-wrapper  */
+.main-wrapper {
+  width: 1300px;
+  margin: auto;
+}
+/* Fine regole main-wrapper */
+
+/* Inizio regole header */
+.yellow-box {
+  height: 120px;
+  background: yellow;
+}
+/* Fine regole header */
+
+/* Inizio regole main */
+.col {
+  margin: 5px 0;
+}
+
+.col.left {
+  width: 20%;
+  height: 250px;
+  background: pink;
+  float: left;
+}
+
+.col.center {
+  width: 50%;
+  height: 500px;
+  background: purple;
+  float: left;
+}
+
+.top-box, .bottom-box {
+  margin: 5px 0;
+  width: 20%;
+  height: 230px;
+  background: pink;
+  float: left;
+}
+
+.col.left, .col.center {
+  margin-right: 5%;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Fine regole main */
+
+/* Inizio regole footer */
+.cyan-box {
+  height: 100px;
+  background: cyan;
+  margin-top: 5px;
+}
+/* Fine regole footer */
